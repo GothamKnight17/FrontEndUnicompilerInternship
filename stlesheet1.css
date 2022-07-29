@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 300;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inner-div h2{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+.main-div {
+     width: 100vw;
+     min-height: 100vw;
+     display: grid; 
+     place-items: center;
+     background-color: aqua;
+}
+.inner-div {
+   width: 100vw;
+   background-color: beige;
+   padding: 0;
+}
+.submit, .btn {
+     padding: 0%;
+     font-size: medium;
+     background-color: burlywood;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit:hover{
+    background-color: aquamarine;
+}
+
+#showScore {
+    padding: 0ch;
+    background-color: aqua;
+}
+
+.scoreArea {
+    display: none;
+}
